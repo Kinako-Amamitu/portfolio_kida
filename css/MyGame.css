@@ -1,0 +1,24 @@
+﻿body
+{
+}
+
+div.title h1{
+    background-color:yellow;
+    font-size:40px;
+}
+div.leviw img {
+    height: 200px;
+    width: 400px;
+}           
+h2{
+    font-size:30px;
+}
+
+.leviw{
+    display:flex;
+    flex-direction:row
+}
+
+.leviw p{
+    font-size:20px;
+}

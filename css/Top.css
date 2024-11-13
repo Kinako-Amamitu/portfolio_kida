@@ -1,0 +1,64 @@
+﻿body
+{
+    background-color:white;
+}
+
+div.title {
+    background-color: aqua;
+    font-size: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;  
+}
+
+.MyprofImg img {
+    height: auto;
+    width: 300px;
+}
+
+.Myprof p {
+    font-size: 20px;
+}
+
+div.Myprof a {
+    font-size: 20px;
+}
+
+div.GameList img {
+    height: auto;
+    width: 600px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+a{
+    font-size: 35px
+}
+
+.GameList {
+    display:flex;
+    font-size:30px;
+}
+
+@media(max-width:1000px) {
+
+    div.title{
+        font-size:20px;
+    }
+    .GameList {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:400px){
+    div.title{
+        font-size:10px;
+    }
+    div.GameList img {
+        height: auto;
+        width: 300px;
+    }
+
+}
