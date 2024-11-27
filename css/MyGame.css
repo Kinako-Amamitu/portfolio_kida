@@ -9,7 +9,11 @@ div.title h1{
 div.leviw img {
     height: 200px;
     width: 400px;
-}           
+}
+div.Juel img{
+    height: 400px;
+    width: 250px;
+} 
 h2{
     font-size:30px;
 }
