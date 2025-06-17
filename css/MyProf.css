@@ -1,5 +1,4 @@
-﻿body
-{
+﻿body {
 }
 
 .title {
@@ -12,11 +11,27 @@ div.Myimg img {
     width: 300px;
 }
 
-section.container{
-    display:flex;
+div.skillpage {
+    display: flex;
+    flex-direction: row;
 }
 
-@media(max-width:1000px) {
+div.skill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.skill img {
+    width: 200px;
+    height: 200px;
+}
+
+section.container {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
 
     div.title {
         font-size: 20px;
@@ -27,7 +42,7 @@ section.container{
     }
 }
 
-@media(max-width:400px) {
+@media (max-width: 400px) {
 
     div.title {
         font-size: 10px;
